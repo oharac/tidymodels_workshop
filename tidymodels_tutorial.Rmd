@@ -140,6 +140,11 @@ Questions to consider:
 
 Let's use the titanic dataset (the complex one from the `titanic` R package, not the simplified version available in base R).  This dataset contains information on passengers including name, age, ticket number, passenger class, sex... and whether they survived the tragedy or not.  Here we can create a model to predict survival (survived/didn't survive) based on various predictor variables.  Because we're predicting a categorical outcome (survived/didn't), this is a "classification" task.
 
+Remember, our regression model can be used to predict an outcome based on the predictor variables, but also (and in this case more interestingly, since we're not going to see a direct repeat of the Titanic disaster) the coefficients on the predictor variables tell us about the significance and strength of influence of those variables on the outcome.
+
+**Citation:**  Hendricks P (2015). _titanic: Titanic Passenger Survival Data Set_. R package version 0.1.0,
+  <https://CRAN.R-project.org/package=titanic>.
+
 Consider: what is an example of a categorical outcome you might see in your own research/studies, that would be relevant to a classification task?
 
 * Species threatened status (threatened vs. not threatened)
